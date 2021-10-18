@@ -2,6 +2,7 @@ package InsertionSort;
 
 public class Main {
 	public static void main(String arg[]) {
+		System.out.println("Insertion Algorithm");
 		int[] array = {1,10,5,8,7,6,4,3,2,9};
 		int size = array.length;
 		
@@ -22,7 +23,5 @@ public class Main {
 			System.out.print(r + " ");
 		}
 		System.out.print("\n");
-		
-		
 	}
 }
